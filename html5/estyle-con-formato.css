@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+font-family:Verdana,sans-serif;font-size:0.9em;
+}
+header {
+
+margin:5px;margin-bottom:15px;padding:8px;
+font-family: Arial, Helvetica, sans-serif;
+color:blue
+}
+footer {
+font-style:italic;
+font-size:0.8em;
+}
+section {
+
+margin-left:25px;
+font-style:italic
+}
+article {
+margin-left:25px;
+font-style:normal;
+color:green;
+font-family: Arial, Helvetica, sans-serif;
+}
+aside {
+background-color:#ddd;
+}
+nav ul {
+margin:0;padding:0; background-color:#a44
+}
+nav ul li {
+display:inline; margin:15px;
+}
+p {
+color:black;
+}
