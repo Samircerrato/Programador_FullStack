@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentos de ejenplos de herencia en css</title>
+    <style>
+        .container {
+            color: green; /*Propiedad heredable*/
+            border: 1px solid red; /*Propiedad no eredable*/
+            }
+        .child {
+            border:inherit /* Este permite heredar la misma propiedad del elemento padre*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <p>Texto del padre</p>
+        <!-- si te fijas el elemento child haora si es afectado por la propiedad
+        border -->
+        <div class="child">
+        <p>Texto del Hijo</p>
+        </div>
+    </div>
+</body>
+</html>
