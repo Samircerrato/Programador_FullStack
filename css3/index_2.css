@@ -1,0 +1,22 @@
+:root {
+    
+}
+
+body {
+    background:#223;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 600px;
+    background: gray;
+}
+
+.item {
+    height: 100px;
+    background: var(--item-color, black);
+}
+
+.item-1 {--Item-color:red;}
