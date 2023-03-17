@@ -1,0 +1,47 @@
+/* las CSS custom properties se declaran dentro de :root */
+:root {
+  --item-color:indigo;
+  --size: 400px  
+}
+
+body {
+    background:#223;
+}
+ /* dar formato a la clase contenedor */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    height: 800px;
+    background: gray;
+}
+
+
+.item {
+    /* aqui de declaran las variables */
+    width: var(--size);
+    background: var(--item-color, black);
+    /* para dar tamano a las secciones */
+    height: 100px;
+
+}
+    /* aqui se definen las propp */
+.item-1 {
+    animation: move 1s alternate infinite;
+    --item-color:blue; 
+}
+
+.item-2 {--item-color:red;}
+.item-3 {--item-color:rgb(180, 39, 199);}
+.item-4 {--item-color:green;}
+.item-5 {--item-color:gold;}
+
+@keyframes move {
+    from {
+        width: 400px;
+    }
+
+    to {
+        width: 800px;
+    }
+}
