@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background: rgb(0, 77, 128);
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+}
+
+.vav__logo{
+    height: 100%;
+    background: #fff;
+}
+
+.nav__img{
+    height: 100%;
+}
+
+.nav__link{
+    color:#fff;
+    text-decoration: none;
+}
+
+.nav__link--color{
+    color: #000;
+    }
+    
+
+
+
+
